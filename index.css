@@ -1,0 +1,24 @@
+/* ... (שאר ה-CSS שלך) ... */
+
+button#downloadZipButton {
+  padding: 10px 20px;
+  font-family: 'Space Mono', monospace;
+  background-color: light-dark(#1c7ed6, #66b2ff);
+  color: light-dark(#ffffff, #0a2b4d);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button#downloadZipButton:hover {
+  background-color: light-dark(#155fa0, #409cff);
+}
+
+button#downloadZipButton[hidden] {
+    display: none;
+}
+
+/* ... (שאר ה-CSS שלך) ... */
